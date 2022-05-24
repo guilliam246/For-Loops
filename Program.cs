@@ -6,13 +6,14 @@ namespace For_Loops
     {
         static void Main(string[] args)
         {
-          var numbers  = new int[] {1, 2, 3,4 };
-
-          foreach (var number in numbers)
+            var i = 0;
+            while (i <= 10)
             {
-                Console.WriteLine(number);
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
+                i++;
+
             }
-               
         }
     }
 }
